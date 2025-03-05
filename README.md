@@ -57,11 +57,11 @@ Unexpected delays occurred due to authentication and access issues.
 
 Solution:
 
--We configured Git by setting up local repositories and managing credentials correctly.
+    We configured Git by setting up local repositories and managing credentials correctly.
 
--Used git config --global user.name and git config --global user.email to ensure proper identity configuration.
+    Used git config --global user.name and git config --global user.email to ensure proper identity configuration.
 
--Reset credentials where necessary and ensured smooth access to the remote repository.
+    Reset credentials where necessary and ensured smooth access to the remote repository.
 
 **2. Effective Refactoring Approach**
 
