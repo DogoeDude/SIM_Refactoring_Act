@@ -1,4 +1,3 @@
-
 class sal_calc:
     def __init__(self, income):
         self.income = income
