@@ -1,19 +1,19 @@
-def compute_deductions(salary):
-    sss = 1200
-    philhealth = (salary * 0.05) / 2
-    pagibig = 100
-    tax = 1875 # Assuming fixed value for simplicity
 
-    deductions = sss + philhealth + pagibig + tax
-    net_salary = salary - deductions
+class sal_calc:
+    def __init__(self, income):
+        self.income = income
+        self.sss = 1200
+        self.philhealth = (income * 0.05) / 2
+        self.pagibig = 100
+        self.tax = 1875
 
-    print("Gross Salary:", salary)
-    print("SSS Deduction:", sss)
-    print("PhilHealth Deduction:", philhealth)
-    print("Pag-IBIG Deduction:", pagibig)
-    print("Tax Deduction:", tax)
-    print("Total Deductions:", deductions)
-    print("Net Salary:", net_salary)
+    def compute_deductions(self):
+        deduction = self.sss + self.philhealth + self.pagibig + self.tax
+        net_income = self.income - deduction
+        return deduction, net_income
+    
+    def display(self):
+        return self.compute_deductions()
 
-salary = float(input("Enter your monthly salary: "))
-compute_deductions(salary)
+
+calc = sal_calc(20000)#Function finish
