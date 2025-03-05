@@ -1,5 +1,8 @@
 # SIM_Refactoring_Act
 
+The original code has been changed to a much more dynamic and simpler code, it introduces
+error handling, functions, and an OOP.
+
 Income Calculation Program
 Description
 This Python program calculates the deductions from an employee's salary and computes the net income after deductions. The deductions include:
@@ -30,10 +33,4 @@ Methods:
 compute_deductions(): Computes and returns the total deductions and the net income (income - total deductions).
 display(): Displays the results of the deduction calculation by calling compute_deductions().
 
-Installation
-Ensure you have Python 3.x installed on your system.
-Download or clone the repository.
-Run the Group_Memor.py
 
-License
-This code is open-source and can be used freely. Feel free to modify and distribute it as needed.
