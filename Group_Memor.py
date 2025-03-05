@@ -20,8 +20,12 @@ class sal_calc:
         print(f"Tax Deduction: {self.tax:.2f}")
         print(f"Total Deductions: {self.compute_deductions():.2f}")
         print(f"Net Salary: {self.compute_net_income():.2f}")
-
-
-Salary = float(input("Enter your monthly salary: "))
-payroll = sal_calc(Salary)
-payroll.display_Payroll()
+        return ""
+    
+if __name__ == "__main__":
+    try:
+        Salary = float(input("Enter your monthly salary: "))
+        payroll = sal_calc(Salary)
+        print(payroll.display_Payroll())
+    except ValueError:
+        print("Enter a valid number input.")
