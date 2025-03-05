@@ -80,7 +80,7 @@ Solution:
 
 **3. Unit Testing**
 
-    To ensure the correctness of our refactored code, we implemented unit tests using Python's unittest framework. The tests validate salary computations for various income levels, confirming that deductions and net           salaries are accurately calculated. These tests are stored in a separate file, ensuring that our main script remains clean and focused on computation. With unit tests in place, we can confidently maintain and extend       our codebase while minimizing the risk of introducing errors.
+To ensure the correctness of our refactored code, we implemented unit tests using Python's unittest framework. The tests validate salary computations for various income levels, confirming that deductions and net           salaries are accurately calculated. These tests are stored in a separate file, ensuring that our main script remains clean and focused on computation. With unit tests in place, we can confidently maintain and extend       our codebase while minimizing the risk of introducing errors.
 
 By addressing these issues, we successfully improved the maintainability and efficiency of the salary computation code.
 
