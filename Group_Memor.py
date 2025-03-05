@@ -1,14 +1,15 @@
 class sal_calc:
+    #Initialize the class with the income and the fixed deductions
     def __init__(self, income):
         self.income = income
         self.sss = 1200
         self.philhealth = (income * 0.05) / 2
         self.pagibig = 100
         self.tax = 1875
-
+    #Compute the deductions and the net income
     def compute_deductions(self):
         return self.sss + self.philhealth + self.pagibig + self.tax
-
+    #Compute the net income
     def compute_net_income(self):
         return  self.income - self.compute_deductions()
 
@@ -23,6 +24,7 @@ class sal_calc:
         return ""
     
 if __name__ == "__main__":
+    #Added a try-except block to handle invalid inputs
     try:
         Salary = float(input("Enter your monthly salary: "))
         payroll = sal_calc(Salary)

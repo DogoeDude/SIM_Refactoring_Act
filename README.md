@@ -38,7 +38,7 @@ A simple class to calculate salary deductions and net pay in the Philippines.
    - Each calculator instance maintains its own state (salary and deductions)
    - No need to pass variables around between functions
 ###Error Handling:
-- Added an Error Handling
-- Makes sure that the user enters a number only
-- Prevents further bugs, code is specified for numbers.
+    - Added an Error Handling
+    - Makes sure that the user enters a number only
+    - Prevents further bugs, code is specified for numbers.
 The OOP approach makes the code more robust, flexible, and suitable for expansion compared to the original procedural version, while maintaining the same core functionality.
