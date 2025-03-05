@@ -57,11 +57,11 @@ Unexpected delays occurred due to authentication and access issues.
 
 Solution:
 
-We configured Git by setting up local repositories and managing credentials correctly.
+*We configured Git by setting up local repositories and managing credentials correctly.
 
-Used git config --global user.name and git config --global user.email to ensure proper identity configuration.
+*Used git config --global user.name and git config --global user.email to ensure proper identity configuration.
 
-Reset credentials where necessary and ensured smooth access to the remote repository.
+*Reset credentials where necessary and ensured smooth access to the remote repository.
 
 **2. Effective Refactoring Approach**
 
@@ -72,11 +72,11 @@ Initially, we considered simply restructuring the function, but we opted for an 
 
 Solution:
 
--We mapped out the existing issues in the code and identified areas that could benefit from encapsulation.
+*We mapped out the existing issues in the code and identified areas that could benefit from encapsulation.
 
--Applied OOP principles to improve code organization and reusability.
+*Applied OOP principles to improve code organization and reusability.
 
--Conducted code reviews to ensure everyone understood the refactoring changes.
+*Conducted code reviews to ensure everyone understood the refactoring changes.
 
 **3. Unit Testing**
 
